@@ -1,0 +1,127 @@
+body {
+  background-image: url("https://i.stack.imgur.com/SvWWN.png");
+  background-color: #53a7e7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(13, 4, 4, 0.1);
+  padding: 20px;
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.subHeading {
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#alert {
+  color: green;
+  margin-left: 5px;
+}
+
+.input {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.table {
+  margin: 2rem 0;
+}
+
+.passwordItem {
+  background-color: #2b2a33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.listValue {
+  margin-right: 15px;
+}
+.listLabel {
+  font-weight: bold;
+  width: 100px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.showPasswordIcon {
+  cursor: pointer;
+  margin-left: 16px;
+  color: #2b2a33;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.showPasswordIcon:hover {
+  color: #2b2a33;
+}
+
+.copyIcon,
+editIcon,
+deleteIcon {
+  cursor: pointer;
+  color: #555;
+  font-size: 20px;
+  transition: color 0.3s;
+  margin-left: 10px;
+}
+
+.copyIcon:hover,
+editIcon:hover,
+deleteIcon:hover {
+  color: #2b2a33;
+}
+
+.submitButton {
+  background: #2b2a33;
+  color: #fff;
+  padding: 12px 24px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.noData {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+  font-size: 18px;
+}
